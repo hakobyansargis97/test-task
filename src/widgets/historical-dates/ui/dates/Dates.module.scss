@@ -1,0 +1,35 @@
+.wrapper {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	text-align: center;
+
+	transform: translateY(-50%);
+
+	font-weight: 700;
+	font-size: 200px;
+	line-height: 160px;
+	letter-spacing: -0.02em;
+
+	> span {
+		display: inline-block;
+
+		&:first-child {
+			color: #3877ee;
+		}
+
+		&:last-child {
+			color: #ef5da8;
+		}
+	}
+}
+
+@media (max-width: 1439px) {
+	.wrapper {
+		position: static;
+		transform: none;
+
+		font-size: 56px;
+		line-height: 73px;
+	}
+}

@@ -1,0 +1,28 @@
+.wrapper {
+	position: relative;
+	width: 1440px;
+	min-height: 100vh;
+	margin: 0 auto;
+
+	padding-top: 170px;
+	padding-bottom: 30px;
+	border-left: 1px rgba(#42567a, 0.1) solid;
+	border-right: 1px rgba(#42567a, 0.1) solid;
+
+	display: flex;
+	flex-direction: column;
+	gap: 170px;
+}
+
+@media (max-width: 1439px) {
+	.wrapper {
+		width: 100%;
+		min-height: auto;
+
+		padding-top: 50px;
+		padding-bottom: 15px;
+		border: none;
+
+		gap: 50px;
+	}
+}

@@ -1,0 +1,22 @@
+.wrapper {
+	position: relative;
+	width: 100%;
+	padding-right: 80px;
+	padding-left: 80px;
+
+	user-select: none;
+}
+
+.slider {
+	position: static;
+}
+
+.slide {
+	width: auto !important;
+}
+
+@media (max-width: 1439px) {
+	.wrapper {
+		padding: 0;
+	}
+}

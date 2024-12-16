@@ -1,0 +1,36 @@
+.wrapper {
+	width: 320px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.year {
+	display: block;
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 25px;
+	line-height: 30px;
+	color: #3877ee;
+}
+
+.text {
+	line-height: 30px;
+	white-space: pre-line;
+}
+
+@media (max-width: 1439px) {
+	.wrapper {
+		width: 210px;
+		padding: 0 20px;
+	}
+
+	.year {
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+	.text {
+		font-size: 14px;
+		line-height: 20px;
+	}
+}
